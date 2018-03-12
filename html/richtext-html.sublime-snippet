@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+{{ apos.singleton(${1:context}, '${2:name}', 'apostrophe-rich-text'${4:, {
+  toolbar: [ 'Styles', 'Bold', 'Italic', 'Link', 'Anchor', 'Unlink', 'NumberedList', 'BulletedList', 'split'],
+  styles: [{
+    name: 'Body Copy',
+    element: 'p',
+    attributes: { class: 'o-body' }
+  }]
+} }}
+]]></content>
+    <tabTrigger>richtext</tabTrigger>
+    <scope>source.html</scope>
+    <dsecription>Renders a richtext widget in your template</dsecription>
+</snippet>

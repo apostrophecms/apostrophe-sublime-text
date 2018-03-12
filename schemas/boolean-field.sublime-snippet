@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+{
+  name: '${1:name}',
+  label: '${2:Label}',
+  type: 'boolean',
+  choices: [
+    { label: 'Yes', value: true, showFields: ['field'] }
+  ]
+}${3}
+]]></content>
+    <tabTrigger>bool</tabTrigger>
+    <scope>source.js</scope>
+    <dsecription>An boolean schema field</dsecription>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+{{ apos.singleton(${1:context}, '${2:name}', '${3:type}'${4:, { ${5:options} \\}}) }}
+]]></content>
+    <tabTrigger>area</tabTrigger>
+    <scope>source.html</scope>
+    <dsecription>Renders a singleton widget in your template</dsecription>
+</snippet>

@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[
+{
+  name: '${1:name}',
+  label: '${2:Label}',
+  type: 'area',
+    widgets: {
+      'apostrophe-rich-text': {
+        toolbar:[ 'Styles', 'Bold', 'Italic', 'Link', 'Anchor', 'Unlink', 'NumberedList', 'BulletedList' ],
+          styles:[
+            { name: 'Body Copy', element: 'p', attributes: { class: 'o-body' } }
+          ]
+        }
+      }
+    }
+}${4}
+]]></content>
+    <tabTrigger>area</tabTrigger>
+    <scope>source.js</scope>
+    <dsecription>An area schema field</dsecription>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+{
+  name: '${1:name}',
+  label: '${2:Label}',
+  type: 'slug',
+  required: true
+}${3}
+]]></content>
+    <tabTrigger>slug</tabTrigger>
+    <scope>source.js</scope>
+    <dsecription>An slug schema field</dsecription>
+</snippet>

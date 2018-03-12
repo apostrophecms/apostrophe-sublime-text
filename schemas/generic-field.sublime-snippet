@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+{
+  name: '${1:name}',
+  label: '${2:Label}',
+  type: '${3:type}'
+}${4}
+]]></content>
+    <tabTrigger>field</tabTrigger>
+    <scope>source.js</scope>
+    <dsecription>A generic schema field</dsecription>
+</snippet>

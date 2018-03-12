@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+{
+  name: '${1:name}',
+  label: '${2:Label}',
+  type: 'url'
+}${3}
+]]></content>
+    <tabTrigger>url</tabTrigger>
+    <scope>source.js</scope>
+    <dsecription>An URL schema field</dsecription>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+{{ apos.log(${1:expression}) }}
+]]></content>
+    <tabTrigger>log</tabTrigger>
+    <scope>source.html</scope>
+    <dsecription>Passes expression to console.log. Very useful for debugging.</dsecription>
+</snippet>

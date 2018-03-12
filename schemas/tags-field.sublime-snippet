@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+{
+  name: '${1:name}',
+  label: '${2:Label}',
+  type: 'tags'
+}${3}
+]]></content>
+    <tabTrigger>tags</tabTrigger>
+    <scope>source.js</scope>
+    <dsecription>A tags schema field</dsecription>
+</snippet>

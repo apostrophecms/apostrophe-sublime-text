@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+{
+  name: '${1:name}',
+  label: '${2:Label}',
+  type: 'integer'
+}${3}
+]]></content>
+    <tabTrigger>int</tabTrigger>
+    <scope>source.js</scope>
+    <dsecription>An integer schema field</dsecription>
+</snippet>

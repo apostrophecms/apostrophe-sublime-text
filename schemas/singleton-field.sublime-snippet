@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+{
+  name: '${1:name}',
+  label: '${2:Label}',
+  type: 'singleton',
+  widgetType: '${3:apostrophe-images}',
+  options: {
+    aspectRatio: [ 4, 3 ],
+    minSize: [ 400, 300 ],
+    limit: [ 1 ],
+  }
+}${4}
+]]></content>
+    <tabTrigger>singleton</tabTrigger>
+    <scope>source.js</scope>
+    <dsecription>A singleton schema field</dsecription>
+</snippet>

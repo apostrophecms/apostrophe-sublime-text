@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+{
+  name: '${1:name}',
+  label: '${2:Label}',
+  type: 'select',
+  choices: [
+    {
+      label: '${3:Label}',
+      value: '${4:value}}',
+      showFields:[${5}]
+    }
+  ]
+}${6}
+]]></content>
+    <tabTrigger>select</tabTrigger>
+    <scope>source.js</scope>
+    <dsecription>An select schema field</dsecription>
+</snippet>

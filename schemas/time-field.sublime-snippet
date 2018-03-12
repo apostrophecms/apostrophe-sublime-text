@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+{
+  name: '${1:name}',
+  label: '${2:Label}',
+  type: 'time',
+  def: '09:00:00',
+}${3}
+]]></content>
+    <tabTrigger>time</tabTrigger>
+    <scope>source.js</scope>
+    <dsecription>A time schema field</dsecription>
+</snippet>

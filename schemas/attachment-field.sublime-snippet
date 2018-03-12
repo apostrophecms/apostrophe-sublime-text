@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+{
+  name: '${1:name}',
+  label: '${2:Label}',
+  type: 'attachment',
+  group: '${3:office|images}'
+}${4}
+]]></content>
+    <tabTrigger>attachment</tabTrigger>
+    <scope>source.js</scope>
+    <dsecription>An attachment schema field</dsecription>
+</snippet>

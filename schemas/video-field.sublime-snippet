@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+{
+  name: '${1:name}',
+  label: '${2:Label}',
+  type: 'video'
+}${3}
+]]></content>
+    <tabTrigger>video</tabTrigger>
+    <scope>source.js</scope>
+    <dsecription>An video schema field</dsecription>
+</snippet>
