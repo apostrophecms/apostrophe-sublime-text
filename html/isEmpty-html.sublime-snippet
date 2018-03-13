@@ -3,6 +3,6 @@
 {% if apos.areas.isEmpty(${1:context}, '${2:name}') %} it's empty {% endif %}
 ]]></content>
     <tabTrigger>isEmpty</tabTrigger>
-    <scope>source.html</scope>
+    <scope>text.html</scope>
     <dsecription>Conditional that detects an empty widget</dsecription>
 </snippet>

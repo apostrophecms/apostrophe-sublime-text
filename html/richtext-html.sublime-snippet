@@ -10,6 +10,6 @@
 } }}
 ]]></content>
     <tabTrigger>richtext</tabTrigger>
-    <scope>source.html</scope>
+    <scope>text.html</scope>
     <dsecription>Renders a richtext widget in your template</dsecription>
 </snippet>

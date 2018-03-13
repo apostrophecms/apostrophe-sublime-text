@@ -3,6 +3,6 @@
 {{ apos.area(${1:context}, '${2:name}'${3:, { ${4:options}} }) }}
 ]]></content>
     <tabTrigger>area</tabTrigger>
-    <scope>source.html</scope>
+    <scope>text.html</scope>
     <dsecription>Renders a area widget in your template</dsecription>
 </snippet>
